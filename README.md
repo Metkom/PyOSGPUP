@@ -21,3 +21,5 @@
 
 
 A python packages for geophysical data processing modeling, inversion and interpretation
+
+Teknik Geofisika, Universitas Pertamina Jl. Teuku Nyak Arief, Simprug, South Jakarta, DKI Jakarta, Indonesia, 12220. email: metkom.up@gmail.com
