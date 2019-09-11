@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: PyOSGPUP
+Version: 1.0.3
+Summary: An open-source library for geophysical data processing, modeling, and interpretation based on Python.
+Home-page: https://sites.google.com/site/metkomup/
+Author: Komputasi Geofisika - Universitas Pertamina
+Author-email: metkom.up@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Metkom/PyOSGPUP/issues
+Project-URL: Say Thanks!, https://sites.google.com/site/metkomup/pyosgpup
+Project-URL: Source, https://github.com/Metkom/PyOSGPUP
+Description-Content-Type: UNKNOWN
+Description: PyOSGPUP: Python, Open-source
+        =============================
+        
+        PuOSGPUP: Python Library that is Open-source created by
+        Geophysical Engineering, Universitas Pertamina
+        
+        A python packages for geophysical data processing, modeling, and interpretation.
+        
+        Teknik Geofisika, Universitas Pertamina
+        Jl. Teuku Nyak Arief, Simprug, South Jakarta, DKI Jakarta, Indonesia, 12220.
+        email: metkom.up@gmail.com
+Keywords: geophysical data processing,modeling,and interpretation
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

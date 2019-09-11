@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+PyOSGPUP/__init__.py
+PyOSGPUP/segypy.py
+PyOSGPUP/signalpy.py
+PyOSGPUP/synthe_seismo.py
+PyOSGPUP/tuning_wedge_acces.py
+PyOSGPUP/wavelet.py
+PyOSGPUP.egg-info/PKG-INFO
+PyOSGPUP.egg-info/SOURCES.txt
+PyOSGPUP.egg-info/dependency_links.txt
+PyOSGPUP.egg-info/requires.txt
+PyOSGPUP.egg-info/top_level.txt
