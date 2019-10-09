@@ -6,6 +6,7 @@
 [![PyPI version](https://badge.fury.io/py/PyOSGPUP.svg)](https://badge.fury.io/py/PyOSGPUP)
 [![PyPI license](https://img.shields.io/pypi/l/PyOSGPUP.svg)](https://pypi.python.org/pypi/PyOSGPUP/)
 ![PyPI - Status](https://img.shields.io/pypi/status/PyOSGPUP.svg)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/PyOSGPUP)
 
 [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/mheriyanto/PyOSGPUP/hapi-auth-jwt2)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Metkom/PyOSGPUP/issues)
