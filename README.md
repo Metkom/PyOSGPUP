@@ -21,6 +21,6 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Metkom/PyOSGPUP.svg)
 
 
-A python packages for geophysical data processing modeling, inversion and interpretation
+A python packages for geophysical data processing modeling, inversion and interpretation. Please check here: https://pypi.org/project/PyOSGPUP/
 
 Teknik Geofisika, Universitas Pertamina Jl. Teuku Nyak Arief, Simprug, South Jakarta, DKI Jakarta, Indonesia, 12220. email: metkom.up@gmail.com
