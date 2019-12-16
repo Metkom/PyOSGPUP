@@ -61,7 +61,7 @@ plt.show()
 ```
 
 <a wavelet href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
-  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/wavelet.png" width="100%">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/wavelet.png" width="100%">
 </a>
 
 2. Read data segy
@@ -90,7 +90,7 @@ segypy.image(Data, SH, scale)
 ```
 
 <a segy href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
-  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/wavelet.png" width="100%">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/readsegy.png" width="100%">
 </a>
 
 3. Create synthetic seismogram
@@ -116,8 +116,13 @@ plotSeismogram(d, rho, v, 50., wavA=1., noise=0., usingT=True, wavtyp='RICKER')
 plt.show()
 ```
 
-
-<a segy href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
-  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/wavelet.png" width="100%">
+<a seis satu href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/seis1.png" width="30%">
+</a>
+<a seis dua href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/seis2.png" width="30%">
+</a>
+<a seis tiga href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/seis3.png" width="30%">
 </a>
 
