@@ -33,7 +33,7 @@ pip3 install PyOSGPUP
 ## User Manual
 User manual for this package avalaible in Bahasa ([download](https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723)). Short example:
 
-1. Create wavelet
+**1. Create wavelet**
 ```python
 import numpy as np
 import PyOSGPUP.wavelet as wav
@@ -63,7 +63,8 @@ plt.show()
   <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/wavelet.png" width="100%">
 </a>
 
-2. Read data segy
+**2. Read data segy**
+
 Please put [shotgather.sgy](https://github.com/cultpenguin/segypy/blob/master/example/shotgather.sgy) file in your directory code.
 
 ```python
@@ -92,7 +93,7 @@ segypy.image(Data, SH, scale)
   <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/readsegy.png" width="100%">
 </a>
 
-3. Create synthetic seismogram
+**3. Create synthetic seismogram**
 ```python
 from PyOSGPUP.synthe_seismo import plotLogsInteract, plotTimeDepth, plotSeismogram
 import matplotlib.pyplot as plt
