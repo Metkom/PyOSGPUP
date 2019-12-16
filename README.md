@@ -21,6 +21,44 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Metkom/PyOSGPUP.svg)
 
 
-A python packages for geophysical data processing modeling, inversion and interpretation. Please check here: https://pypi.org/project/PyOSGPUP/
+A python packages for geophysical data processing modeling, inversion and interpretation. Please check here: for [official website](https://sites.google.com/site/metkomup/pyosgpup) and [package](https://pypi.org/project/PyOSGPUP/).
 
 Teknik Geofisika, Universitas Pertamina Jl. Teuku Nyak Arief, Simprug, South Jakarta, DKI Jakarta, Indonesia, 12220. email: metkom.up@gmail.com
+
+## Installation
+
+```
+pip install PyOSGPUP
+or
+pip3 install PyOSGPUP
+```
+## User Manual
+User manual for this package avalaible in Bahasa ([download](https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723)). Short example:
+
+1. Create wavelet
+```python
+import numpy as np
+import PyOSGPUP.wavelet as wav
+import matplotlib.pyplot as plt
+
+t = np.arange(-0.4 / 2, (0.4 / 2) + 0.004, 0.004)
+# frequency
+fgR = np.array([10])  # 1 freq
+fgO = np.array([5, 10, 15, 20])  # 4 fred
+fgK = np.array([5, 10])  # 2 fred
+gR = wav.getRicker(fgR, t)
+gO = wav.getOrmsby(fgO, t)
+gK = wav.getKlauder(fgK, t)
+
+plt.figure()
+plt.plot(t, gR, linewidth=2, color="blue")
+plt.plot(t, gO, linewidth=2, color="red")
+plt.plot(t, gK, linewidth=2, color="green")
+plt.title('Wavelet')
+plt.xlabel('time [ms]')
+plt.ylabel('amplitude')
+plt.legend(['Ricker', 'Ormsby', 'Kaluder'])
+plt.show()
+```
+
+
