@@ -12,13 +12,12 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Metkom/PyOSGPUP/issues)
 ![GitHub contributors](https://img.shields.io/github/contributors/Metkom/PyOSGPUP.svg)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Metkom/PyOSGPUP.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/Metkom/PyOSGPUP.svg)
 [![HitCount](http://hits.dwyl.com/Metkom/PyOSGPUP.svg)](http://hits.dwyl.com/Metkom/PyOSGPUP)
 [![PyPI download month](https://img.shields.io/pypi/dm/PyOSGPUP.svg)](https://pypi.python.org/pypi/PyOSGPUP/)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Metkom/PyOSGPUP/total.svg)
 ![GitHub forks](https://img.shields.io/github/forks/Metkom/PyOSGPUP.svg?style=social)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Metkom/PyOSGPUP.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/Metkom/PyOSGPUP.svg)
 
 
 A python packages for geophysical data processing modeling, inversion and interpretation. Please check here: for [official website](https://sites.google.com/site/metkomup/pyosgpup) and [package](https://pypi.org/project/PyOSGPUP/).
@@ -61,4 +60,64 @@ plt.legend(['Ricker', 'Ormsby', 'Kaluder'])
 plt.show()
 ```
 
+<a wavelet href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/wavelet.png" width="100%">
+</a>
+
+2. Read data segy
+Please put [shotgather.sgy](https://github.com/cultpenguin/segypy/blob/master/example/shotgather.sgy) file in your directory code.
+
+```python
+import PyOSGPUP.segypy as segypy
+
+filename = 'shotgather.sgy'
+
+# Set verbose level
+segypy.verbose = 1
+SH = segypy.getSegyHeader(filename)
+
+# Read Segy File
+[Data, SH, STH] = segypy.readSegy(filename)
+
+# Plot Segy filwe
+scale = 1e-9
+
+# wiggle plot
+segypy.wiggle(Data, SH, 1e-9)
+
+# image plot
+segypy.image(Data, SH, scale)
+```
+
+<a segy href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/wavelet.png" width="100%">
+</a>
+
+3. Create synthetic seismogram
+```python
+from PyOSGPUP.synthe_seismo import plotLogsInteract, plotTimeDepth, plotSeismogram
+import matplotlib.pyplot as plt
+
+# Synthetic Seismogram
+d = [0., 50., 100.]  # Position of top of each layer (m)
+v = [500., 1000., 1500.]  # Velocity of each layer (m/s)
+rho = [2000., 2300., 2500.]  # Density of each layer (kg/m^3)
+wavtyp = 'RICKER'  # Wavelet type
+wavf = 50.  # Wavelet Frequency
+usingT = False  # Use Transmission Coefficients?
+
+plotLogsInteract(d[1], d[2], rho[0], rho[1], rho[2], v[0], v[1], v[2])
+plt.show()
+
+plotTimeDepth(d, v)
+plt.show()
+
+plotSeismogram(d, rho, v, 50., wavA=1., noise=0., usingT=True, wavtyp='RICKER')
+plt.show()
+```
+
+
+<a segy href="https://figshare.com/articles/Petunjuk_Penggunaan_PyOSGPUP_versi_1_0_3/7325723">
+  <img src="https://github.com/Metkom/PyOSGPUP/blob/master/wavelet.png" width="100%">
+</a>
 
