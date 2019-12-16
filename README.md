@@ -8,10 +8,6 @@
 ![PyPI - Status](https://img.shields.io/pypi/status/PyOSGPUP.svg)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/PyOSGPUP)
 
-[![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/mheriyanto/PyOSGPUP/hapi-auth-jwt2)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Metkom/PyOSGPUP/issues)
-![GitHub contributors](https://img.shields.io/github/contributors/Metkom/PyOSGPUP.svg)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/Metkom/PyOSGPUP.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Metkom/PyOSGPUP.svg)
 [![HitCount](http://hits.dwyl.com/Metkom/PyOSGPUP.svg)](http://hits.dwyl.com/Metkom/PyOSGPUP)
@@ -19,6 +15,9 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/Metkom/PyOSGPUP/total.svg)
 ![GitHub forks](https://img.shields.io/github/forks/Metkom/PyOSGPUP.svg?style=social)
 
+[![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/mheriyanto/PyOSGPUP/hapi-auth-jwt2)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Metkom/PyOSGPUP/issues)
+![GitHub contributors](https://img.shields.io/github/contributors/Metkom/PyOSGPUP.svg)
 
 A python packages for geophysical data processing modeling, inversion and interpretation. Please check here: for [official website](https://sites.google.com/site/metkomup/pyosgpup) and [package](https://pypi.org/project/PyOSGPUP/).
 
