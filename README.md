@@ -126,3 +126,7 @@ plt.show()
   <img src="https://github.com/Metkom/PyOSGPUP/blob/master/example/seis3.png" width="30%">
 </a>
 
+## Citation
+If you find this project useful for your research, please use the following BibTeX entry.
+
+
