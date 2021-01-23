@@ -1,6 +1,6 @@
 
 import numpy as np
-from numpy.fft.fftpack import fft,ifft
+import numpy.fft import fft, ifft
 
 def hilbert(mag):
     """Compute the modified 1D discrete Hilbert transform
